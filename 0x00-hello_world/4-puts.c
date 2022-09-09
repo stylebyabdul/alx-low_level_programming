@@ -1,11 +1,7 @@
-#!/bin/bash
 #include <stdio.h>
-#include <puzzle.h>
 
-int main(void)
+int main (void)
 {
-	char puzzle [30]
-	strcpy(puzz, "Programming is like building a multilingual puzzle")
-	puts(puzzle)
-	return 0;
-}
+	puts("\"programming is like a building a multilingual puzzle");
+       return (0);
+}       
