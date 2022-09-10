@@ -5,6 +5,7 @@
  * main - print if the number is positive negative or zero
  *
  * Description using the main function
+ * this program prints "programimg is positive, zero, or negative
  * Return: Always 0
  */
 int main(void)
@@ -30,5 +31,4 @@ int main(void)
 		printf("%i is zero\n", n);
 	}
 	return (0);
-}
-		
+}		
