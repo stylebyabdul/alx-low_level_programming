@@ -1,11 +1,11 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Prints all the number of base 16 in lowercase.
  *
  * Return: Always 0
  */
-int (void)
+int main(void)
 {
 	int num;
 	char letter;
