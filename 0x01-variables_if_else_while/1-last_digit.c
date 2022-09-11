@@ -3,11 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit number if it greater than 5, or less than 6 or 0 
+ * main - Prints the last digit of randomly generated number 
+ * and whether it greater than 5, or less than 6, or 0.
  *
- * description: using the main function
- * this program prints "programming is greater than 5 or less than 6, or 0
- * return: Always 0
+ * Description: using the main function.
+ * this program prints "programming is greater than 5, less than 6, or 0.
+ * return: Always 0.
  */
 int main(void)
 {
@@ -27,7 +28,7 @@ int main(void)
 	else if (l < 6 && l != 0)
 	{
 		/* if condition is true print the following */
-		printf("last digit of %d is %d and is less tha 6 and not 0\n", n, l);
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
 	else
 	{
