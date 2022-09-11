@@ -5,11 +5,11 @@
  *
  * Result: Always 0
  */
-int main(void)
+int main()
 {
 	int num;
 
-	for (num = 0; num < 10; num ++)
+	for (num = 0; num < 10; num++)
 
 		printf("%d", num);
 
