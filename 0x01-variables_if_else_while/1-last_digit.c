@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of randomly generated number
+ * main - Prints the last digit of randomly generated number,
  * and whether it greater than 5, or less than 6, or 0.
  *
- * Description: Using the main function.
- * this program prints "programming is greater than 5, less than 6, or 0.
  * return: Always 0.
  */
 int main(void)
