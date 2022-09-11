@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit number if it positive, zero or negative
+ * main - prints the last digit number if it greater than 5, or less than 6 or 0 
  *
  * description: using the main function
- * this program prints "programming is positive, zero or negative
+ * this program prints "programming is greater than 5 or less than 6, or 0
  * return: Always 0
  */
 int main(void)
@@ -24,15 +24,15 @@ int main(void)
 		/* if condition is true print the following */
 		printf("last digit of %d is %d and is greater than 5\n", n, l);
 	}
-	else if (1 == 0)
+	else if (l < 6 && l != 0)
 	{
 		/* if condition is true print the following */
-		printf("last digit of %d is %d and is 0\n", n, l);
+		printf("last digit of %d is %d and is less tha 6 and not 0\n", n, l);
 	}
 	else
 	{
 		/* if the condition is false print the following */
-		printf("last digit of %d is %d and is less than 6 and 0\n", n, l);
+		printf("last digit of %d is %d and is 0\n", n, l);
 	}
 	return (0);
 }
