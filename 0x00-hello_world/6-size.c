@@ -1,24 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - Prints the size of many  var types
+ * main - Prints the size of many  various types base on
+ *        the computer it is compiled and run on.
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
-	char a;
-	int b;
-        long long int c;
-        float d;
-	long int e;
+	char c;
+	int i;
+        long long int ll;
+        float f;
+	long int l;
 
 
-	printf("Size of a char: %d byte(s)\n", sizeof(a));
-        printf("Size of an int: %d byte(s)\n", sizeof(b));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(c));
-	printf("Size of a float: %d byte(s)\n", sizeof(d));
-	print("Size of long int: %byte(s)\n", sizeof(e));
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+        printf("Size of an int: %d byte(s)\n", sizeof(i));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(ll));
+	printf("Size of a float: %d byte(s)\n", sizeof(f));
+	printf("Size of long int: %d byte(s)\n", sizeof(l));
 	return (0);
 }
               	
