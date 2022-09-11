@@ -2,7 +2,7 @@
 
 /*
  * main - prints all possible combinations of two two-digit numbers,
- *        the numbers should range from 0 to 99.
+ *        range from 0-99, seperated by a comma followed by a space.
  *
  * Return: Always 0.
  */
@@ -19,7 +19,6 @@ int main(void)
 			putchar(' ');
 			putchar((num2 / 10) + '0');
 			putchar((num2 % 10) + '0');
-			
 			if (num1 == 98 && num2 == 99)
 				continue;
 			putchar(',');
@@ -27,6 +26,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-
 	return (0);
-}		
+}
