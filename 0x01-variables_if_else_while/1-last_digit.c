@@ -34,5 +34,5 @@ int main(void)
 		/* if the condition is false print the following */
 		printf("last digit of %d is %d and is less than 6 and 0/n", n, l);
 	}
-	return (0)
+	return (0);
 }
