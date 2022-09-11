@@ -5,6 +5,7 @@
  *
  * Result: Always 0.
  */
+
 int main(void)
 {
 	char letter;
