@@ -2,9 +2,9 @@
 
 /*
  * main - Prints all the diffent combination of three digits,
- * in ascending order, seperated by a comma followed by a space.
+ *        in ascending order, seperated by a comma followed by a space.
  *
- * Return: 0.
+ * Return: Always 0.
  */
 int main(void)
 {
