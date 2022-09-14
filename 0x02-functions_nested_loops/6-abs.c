@@ -6,7 +6,7 @@
  *
  * Return: The absolute value of the integer
  */
-int print_last_digit(int)
+int _abs(int)
 {
 	if (n >= 0)
 		return (n);
