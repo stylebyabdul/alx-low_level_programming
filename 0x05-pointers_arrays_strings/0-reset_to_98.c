@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * reset_98 - set the int as a parameter
+ * reset_98 - take an int to a pointer and updates
+ *            the value it point to 98
  * @n: a pointer the integer we want to set to 98.
  * 
  * Return: Always 0
