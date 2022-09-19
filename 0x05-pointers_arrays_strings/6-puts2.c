@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * put2 - prints every other character of a string, starting with the
- *        character, followed by a new line.
+ * puts2 - prints every other character
  * @str: string chracter to be printed
  * Return: nothing
  */
