@@ -5,7 +5,7 @@
  *           overwritting the terminating null byte.
  * @dest: pointer to the string to be concatenated upon
  * @str2: funtion append to dest
- * Return: A pointer to the reulting string dest
+ * Return: A pointer to the reulting string dest.
  */
 char *_strcat(char *dest, char *src)
 {
