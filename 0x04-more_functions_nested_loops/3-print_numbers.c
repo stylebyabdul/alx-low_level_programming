@@ -13,5 +13,5 @@ void print_numbers(void)
 	for (num = 0; num <= 9; num++)
 		putchar((num % 10) + '0');
 
-	_putchar('\n');
+	putchar('\n');
 }
