@@ -2,19 +2,16 @@
 
 /**
  * print_number - Prints an integer.
- * only using the putchar function.
- * noarrays and pointers.
  * @n: The integer to be printed.
- * Return: Void.
  */
 void print_number(int n)
 {
 	unsigned int num = n;
-	
+
 	if (n < 0)
 	{
-		_putchar('_');
-		num = -n;
+		_putchar('-');
+		num = -num;
 	}
 
 	if ((num / 10) > 0)
