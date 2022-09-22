@@ -1,8 +1,7 @@
 #include <stdio.h>
-/*
- * main - add one line of code to print a[2] = 98
- *
- * Return: 0
+
+/* 
+ * main - Print a[2] = 98, followed by new line
  */
 int main(void)
 {
