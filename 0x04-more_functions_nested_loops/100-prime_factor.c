@@ -21,10 +21,9 @@ int main(void)
 		for (inc = 3; inc < number / 2 ; inc += 2)
 		{
 			if (number % inc == 0)
-				number / = inc;
+				number /= inc;
 		}
 	}
-	printf("%1d\n", number);
-	
+	printf("%ld\n", number);
 	return (0);
 }
