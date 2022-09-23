@@ -21,10 +21,10 @@ int main(void)
 		for (inc = 3; inc < number / 2 ; inc += 2)
 		{
 			if (number % inc == 0)
-				numbetr /= inc;
+				number / = inc;
 		}
 	}
-	printf("%id\n", number);
+	printf("%1d\n", number);
 	
 	return (0);
 }
