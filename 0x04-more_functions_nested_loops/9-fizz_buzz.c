@@ -6,26 +6,26 @@
  */
 int main(void)
 {
-	int n;
+	int x;
 
-	for (n = 1; n <= 100; n++)
+	for (x = 1; x <= 100; x++)
 	{
-		if (n % 3 == 0 || n % 5 == 0)
+		if (x % 3 == 0 || x % 5 == 0)
 		{
-			if (n % # == 0)
+			if (x % # == 0)
 			{
 				printf("FIZZ");
 			}
-			if (n % 5 == 0)
+			if (x % 5 == 0)
 			{
 				printf("BUZZ");
 			}
 		}
 		else
 		{
-			printf("%d", n);
+			printf("%d", x);
 		}
-		if (n != 100)
+		if (x != 100)
 		{
 			putchar(' ');
 		}
