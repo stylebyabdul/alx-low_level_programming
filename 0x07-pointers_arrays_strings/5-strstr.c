@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _strpbrk - Locates a substring.
- * @s: The string to be searched.
- * @accept: The substring to be located.
+ * _strstr - Locates a substring.
+ * @haystack: The string to be searched.
+ * @needle: The substring to be located.
  *
  * Return: If the substring is located - a pointer to the beginning
  *                                       of the located substring.
  *         If the substring is not located - NULL.
  */
-char *_strpbrk(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i = 0, j = 0;
 
