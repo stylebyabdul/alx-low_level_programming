@@ -5,8 +5,7 @@
  *
  * @s: string to be search
  * @c: character to be located to string
- * Return: a pointer the character c in string s or null if
- *         the character is not found
+ * Return: a pointer the character c in string s or null
  */
 char *_strchr(char *s, char c)
 {
@@ -19,6 +18,5 @@ char *_strchr(char *s, char c)
 	}
 	if (*(s + i) == c)
 		return (s + i);
-
 	return ('\0');
 }
